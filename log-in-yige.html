@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<title>登录 艺格</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		.body_background{
+			height: 600px;
+			width: 100%;
+		}
+		body,div,ul,li,p{
+			margin: 0 auto;
+
+		}
+		.container{
+			width:400px;
+			height:1000px;
+			padding-top: 300px;	
+
+		}
+	
+		.tab-content{
+			padding-top:60px;
+		}
+		.form-group{
+			height:50px;
+		}
+		.form-group input{
+			height: 40px;
+		}
+		.btn-primary{
+			width: 370px;
+			height: 40px;
+		}
+		.nav-pills li{
+			padding-left: 30px;
+		}
+		.hover_background{
+			background: #f5f0ea;
+		}
+		.nav-pills .active_now{
+			padding-left:110px;
+		}
+		.nav-pills .active_now a{
+			background: #fff;
+		}
+			.save{
+				padding-bottom:20px; 
+				color: #555;
+		}
+
+		.logo{
+			position: fixed;
+			left: 80px;
+			top: 60px;
+			opacity: 0.75;
+		}
+		.user_agreement{
+			color: #666;
+			padding-top:20px;
+		}
+	</style>
+<body>
+<div class="bady_background" style="background:url(images/body_background.jpg) center 0 no-repeat ;width:100%;height:100%;">
+	<div class="logo"><a href="index.html" alt="主页" title="主页"><img src="images/logo2.png" height="30"></a></div>
+	<div class="container ">
+	 	
+		<ul class="nav nav-pills" role="tablist" id="myTab">
+			<li class="active active_now"><a href="#log-in" role="tab" data-toggle="tab"><strong>登录</strong></a></li>
+			<li ><a class="hover_background"  href="#login" role="tab" data-toggle="tab"><strong>注册</strong></a></li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" id="log-in">
+	        <form  role="form">
+	             <div class="form-group">
+	                                    <!-- <label>用户名：</label> -->
+	                 <input name="username" type="email" placeholder="手机号或邮箱" class="form-control">
+	             </div>
+	             <div class="form-group">
+	                                    <!-- <label>密码：</label> -->
+	                 <input name="password" type="password" placeholder="密码" class="form-control">
+	             </div>
+	            <div class="save"><input type="checkbox" class="i-checks">&nbsp;&nbsp;自动登录</strong></label></div>
+	             <div class="text-center">
+	                 <button class="btn btn-md btn-primary " type="submit"><strong>登录</strong></button>             
+	             </div>
+	         </form>
+	                        
+	        </div>
+			<div class="tab-pane" id="login">
+								<form role="form">
+	                                <div class="form-group">
+	                                    <!-- <label>用户名：</label> -->
+	                                    <input type="text" placeholder="你的昵称" class="form-control">
+	                                </div>
+	                                <div class="form-group">
+	                                    <!-- <label>用户名：</label> -->
+	                                    <input type="email" placeholder="手机号或邮箱" class="form-control">
+	                                </div>
+	                                <div class="form-group">
+	                                    <!-- <label>密码：</label> -->
+	                                    <input type="password" placeholder="设置密码" class="form-control">
+	                                </div>
+	                               
+	                                <div class="text-center">
+	                                    <button class="btn btn-md btn-primary " type="submit"><strong>注册</strong>
+	                                    </button>
+	                                   
+	                                        
+	                                </div>
+	                                <h6 class="text-center user_agreement">点击 “注册” 即表示您同意并愿意遵守艺格</h6>
+										<h6 class="text-center "><a href="#">用户协议</a> 和 <a href="#">隐私政策</a> 。</h6>
+	                            </form>
+			</div>
+		</div>
+
+	</div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
