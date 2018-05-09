@@ -1,0 +1,144 @@
+body{
+	background-color:#F5F5F5;
+
+}
+a:hover{
+	text-decoration: none;	
+}
+
+.bigImg>.row>img{
+	width: 100%;
+	height: 100%;
+}
+.bigImg{
+	padding-top:50px;
+	background-color: #fff;
+}
+.introduce{
+	margin:0 auto ;
+	
+	text-align: center;
+	background-color:#fff;
+	padding-top: 30px;
+
+
+}
+.introduceSub-1 img{
+	padding-top:7px;
+}
+
+.introduceSub-1>a>h3{
+	color:#63B455;
+	font-family: 'Microsoft Yahei';
+}
+.introduceSub-2>a>h3{
+	color:#F8741D;
+		font-family: 'Microsoft Yahei';
+
+}
+.introduceSub-3>a>h3{
+	color:#2380D3;
+		font-family: 'Microsoft Yahei';
+
+}
+.introduceSub-4>a>h3{
+	color:#FF3399;
+		font-family: 'Microsoft Yahei';
+
+}
+.introduce>div>a>p{
+	color:#333333;
+	line-height: 26px;
+	padding: 10px;
+
+
+}
+.introduce>div>a>img{
+	/*width: 60%;*/
+	
+}
+
+
+.text{
+	text-align: center;
+	padding : 20px 0 40px;
+			font-family: 'Microsoft Yahei';
+
+}
+/*position*/
+#position{
+
+	margin:0 auto;
+	background-color:#fff; 
+	padding-bottom: 50px;
+
+}
+
+figure{
+	position: relative;
+
+/*	height: 350px;*/
+	overflow: hidden;
+	width: 100%;
+}
+figcaption{
+	position: absolute;
+	top:0px;
+	left:0px;
+	color:#fff;
+}
+figure img{
+	width: 100%;
+	opacity:0.8;	/*透明度*/
+	height: 400px;
+}
+figure figcaption h2,p,img,span,div{transition: all 0.35s;;
+}
+/*img2*/
+.img2{background:#3D3735;position:relative;}
+.img2 figcaption h2{
+	transform:translate(20%,1000%);
+	transition-delay: 0.05s;
+}
+.img2 figcaption p{
+	/*margin:3px;*/
+	
+
+	text-align: center;
+	transform:translate(-400px,600%);
+/*	transition-delay:0.15s;*/
+	
+}
+
+.img2 .div{
+	/*width: 100%;
+	height: 200px;*/
+
+	margin: 0 auto;
+	position: absolute;/*left: 80%;*/top:30px;	
+	transform:translate(0px,250px);
+	transition-delay: 0.05s;
+}
+.img2 img{
+	transform:scale(1.1,1.1);
+}
+
+
+/*.img2:hover .div{transform:translate(0px,180px)}*/
+.img2:hover figcaption p{transform: translate(0px,600%);}
+.img2:hover figcaption h2{transform:translate(20%,800%);}
+.img2:hover img{transform:scale(1.2,1.2);opacity:0.5;}
+figcaption{
+	padding: 10px;
+}
+
+/*字体*/
+.navbar-css li,.introduceSub-1 h3,.introduceSub-2 h3,.introduceSub-3 h3,.text,#position-sub h2{
+	font-family:'Microsoft Yahei';
+}
+.introduceSub-1 p,.introduceSub-2 p,.introduceSub-3 p,#position-sub p{
+	font-family: 'SimSun';
+}
+#position-sub p{
+	font-size: 16px;
+}
